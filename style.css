@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    width: 100%;
+    background: url(backgrnd.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar logo{
+    width: 160px;
+    cursor: pointer ;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: 1%;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(216, 227, 216);
+    margin-top: -3%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+.info{
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 100px;
+    font-family: monotype corsiva;
+    color:aquamarine;
+    margin-top: -1%;
+    margin-left: 2%;
+
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-top: -3%;
+    color:gainsboro;
+    margin-top:0%;
+    font-family: monotype corsiva;
+    font-size: 25px;
+    font-weight: bold;
+}
+.info h2{
+    color:beige;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 1%;
+}
+
+.info a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    background: cadetblue;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 2%;
+    font-family: algerian;
+    font-weight: bolder;
+    
+    
+}
+.info a:hover{
+    background: palevioletred;
+    transition: all 1s;
+    transform: scale(1.2);
+}
+.image{
+    display: grid;
+    place-items: center;
+    margin-left: 65%;
+    margin-top: -15%;
+    margin-right:15%;    
+    
+}
+.image img{
+    width: min(25rem,90%);
+    border-radius:100%;
+    margin-left: 55%;
+    margin-right: 25%;
+    margin-top:-15%;
+    height: 425px;
+    width: 440px;
+    border:inset 7px rgb(5, 72, 73);  
+    
+    
+}
+.image:hover.girl{
+    left: 55%;
+
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+
+}
+#sc{
+    color:aquamarine;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: algerian;
+}
+.social-icon ul{
+    position: absolute;
+    top: 77%;
+    left: 21%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.social-icon ul li{
+    list-style: none;
+    margin: 0 7px;
+}
+.social-icon ul li .fa-brands{
+    font-size: 25px;
+    line-height: 50px;
+    transition: .3s;
+    color: aquamarine;
+
+}
+.social-icon ul li .fa-brands:hover{
+    color: white;
+
+}
+.social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(4, 24, 24);
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgb(16, 60, 48);
+    transition: .6s;
+}
+.social-icon ul li a:hover{
+    transform: translate(0,-10%);
+}
+.social-icon ul li:nth-child(1) a:hover{
+    background-color: rgb(44, 79, 175);
+}
+.social-icon ul li:nth-child(2) a:hover{
+    background-color: rgb(123, 4, 93);
+}
+.social-icon ul li:nth-child(3) a:hover{
+    background-color: black;
+}
+.social-icon ul li:nth-child(4) a:hover{
+    background-color: rgb(43, 114, 138);
+}
+.social-icon ul li:nth-child(5) a:hover{
+    background-color: rgb(16, 49, 140);
+}
+.social-icon ul li:nth-child(6) a:hover{
+    background-color: rgb(182, 41, 41);
+}
